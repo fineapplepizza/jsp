@@ -1,0 +1,5 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>\uCEE4\uBC0B</message>\r\n<message>test</message>\r\n<message>\uCF54\uB4DC \uCDA9\uB3CC\uB85C \uC778\uD55C \uCEE4\uBC0B</message>\r\n<message>\uCEE4\uBC0B (\uC218\uC815\uC911)</message>\r\n<message>\uCDA9\uB3CC\uB85C \uC778\uD55C \uCF54\uB4DC \uC218\uC815 \uB2E4\uC2DC \uCEE4\uBC0B</message>\r\n<message>\uCDA9\uB3CC\uB85C\uC778\uD55C\uCEE4\uBC0B</message>\r\n<message>\uAC80\uC0C9\uAE30\uB2A5 \uCEE8\uD2B8\uB864\uB7EC \uCD94\uAC00</message>\r\n<message>sql\uBB38 \uC885\uBAA9\uCF54\uB4DCvarchar2\uB85C \uBCC0\uACBD</message>\r\n<message>\uAD6D\uB0B4 \uC2E4\uC2DC\uAC04 Best\uBD88\uB7EC\uC624\uAE30 \uAE30\uB2A5\uCD94\uAC00</message>\r\n<message>\uC0AC\uC774\uB4DC\uBC14 \uBA54\uC778 \uC2DC\uC7A5\uC815\uBCF4 \uC8FC\uC18C \uBCC0\uACBD</message>\r\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

@@ -1,0 +1,11 @@
+-주식용어사전정리 테이블 생성-
+create table StockTerms
+(term VARCHAR2(50) NOT NULL,
+ commentary VARCHAR2(700) NOT NULL,
+ constraint term_pk primary key(term)
+ );
+ 
+ drop table StockTerms
+ 
+ 
+ 

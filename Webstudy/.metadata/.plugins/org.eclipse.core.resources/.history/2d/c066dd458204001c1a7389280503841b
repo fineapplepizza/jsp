@@ -1,0 +1,51 @@
+package model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public class StockTermsDAO {//주식용어 사전
+	private Connection conn = null;
+	private PreparedStatement psmt = null;
+	private ResultSet rs = null;
+	
+	public void connection() {//데이터베이스
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+			//localhost: Oracle DB가 설치된 PC의 ip주소 설정
+			String url="jdbc:oracle:thin:@project-db-stu.ddns.net:1524:xe";//localhost
+			String user = "cgi_7_2";
+			String pass="smhrd2";
+			//DB연결
+			conn = DriverManager.getConnection(url,user,pass);
+			
+		} catch (ClassNotFoundException e) {
+			System.out.println("ojdbc6.jar파일 또는 driver경로 확인!");
+			e.printStackTrace();
+		} catch (SQLException e) {
+			System.out.println("DB연결실패..");
+			e.printStackTrace();
+		}
+
+		
+	}
+	
+	public void close() {//종료
+		
+	}
+
+	public ArrayList<StockTermsDTO> select(){//주식용어사전
+		
+		//ArrayList생성
+		ArrayList<StockTermsDTO>list = new ArrayList<StockTermsDTO>();
+
+		StockTermsDTO termDic = null;
+		
+		
+		return list;
+	}
+}

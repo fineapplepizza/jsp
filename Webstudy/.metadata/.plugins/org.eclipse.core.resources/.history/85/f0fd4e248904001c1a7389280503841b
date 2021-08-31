@@ -1,0 +1,16 @@
+-주식용어사전정리 테이블 생성-
+create table StockTerms
+(term VARCHAR2(50) NOT NULL,
+ commentary VARCHAR2(700) NOT NULL,
+ constraint term_pk primary key(term)
+ );
+ 
+ drop table StockTerms
+ 
+ insert into StockTerms values('코스피와 코스닥','보통 사람들이 주식한다고 했을 때 거래하는 코피와 코스닥을 소개할려고 해요.
+-코스피(KOSPI): 대기업 등 *우량주가 거래되는 시장을 말해요 그리고 주식 가격을 표시한 지수를 말하기도 해요.
+-코스닥(KOSDAQ): IT,바이오,엔터테인먼트 등 코스피보다 중소, 벤처기업의 주식들이 주로 거래되는 시장을 말해요.
+*우량주: 타 기업에 비해 수익성,안전성,성장성 등이 좋은 기업')
+ 
+ 
+ 

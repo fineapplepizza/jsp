@@ -1,0 +1,12 @@
+1629709415084	Rename type 'JugaDataDTO'
+1629709436699	Rename type 'JugaDataDAO'
+1629709483937	Rename type 'JugaDataCon'
+1629710498836	Rename type 'TermDicDAO'
+1629710512682	Rename type 'TermDicDTO'
+1629710529087	Rename type 'TermDicCon'
+1629772829958	Rename resource 'sql.sql'
+1630111056260	Delete element
+1630111062195	Delete element
+1630113669328	Rename resource 'StockBestDTO.java'
+1630113683621	Rename resource 'StockBestDAO.java'
+1630113802011	Rename type 'StockBestCon'

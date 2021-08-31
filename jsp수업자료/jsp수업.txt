@@ -1,0 +1,26 @@
+jsp-정보를 출력하기위해 만들어짐
+ 연동을 할 수 있지만 jsp목적과 다름
+servelt-데이터베이스에 접속해서 데이터 저장 수정 삭제를 서블릿으로 처리
+결과값을 jsp로 보여지겠끔
+html,jsp-view
+servlet -controller(사용자가 요청하면 그것에 대해 맞는 처리하는 것, 데이터만 jsp전달)
+was-서버프로그램을 동작시키는 곳
+model - 
+DAO-
+DTO-데이터를 담아서 주고 받을 수 있게 전송해줄 수 있는 객체
+패키지는 보통 회사명이나 도메인
+
+톰켓은 webapp만 읽을 수 있다.
+lib-라이브러리파일을 정의해두는 곳
+서버가 lib안에 라이브러리파일을 읽어들어서 데이터베이스를 연동할 수 있다.
+
+패턴을 쓰는 이유
+효율적으로 빠르게 정리할 수 있다.
+web프로그램 개발할때 가장많이 사용하는 것이 mvc패턴
+mvc패턴
+model: 데이터베이스에 관련된 처리
+    ex)DAO(Data Access Obeject),-데이터베이스에 관련된 기능들을 모아둔곳
+  ex)select,insert,Delete,Update 기능을 관리하는 클래스 
+        DTO(Data Transfer Obeject)-데이터베이스에 있는 테이블의 자료형을 표현하는 클래스 
+View:Controller로부터 전달받은 값을 출력하는 요소(JSP)
+Controller: 클라이언트의 요청에 딸라서 처리하는 요소
